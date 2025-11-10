@@ -7,20 +7,23 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public InputAction LeftAction;
     // Start is called before the first frame update
     void Start()
     {
-        
+        LeftAction.Enable();
     }
 
     // Update is called once per frame
     void Update()
-    {
+
+
         float horizontal = 0.0f;
-        if (Keyboard.current.leftArrowKey.isPressed)
+        if (LeftAction.IsPressed())
         {
-            horizontal = -1.0f;
+            horizontal =-1.0f;
             }
+
         else if (Keyboard.current.rightArrowKey.isPressed)
         {
             horizontal = 0.0f;
@@ -46,5 +49,3 @@ public class PlayerController : MonoBehaviour
         position.x = position.x + 0.1f * horizontal;
         position.y = position.y + 0.1f * vertical;
         transform.position = position;
-    }
-}

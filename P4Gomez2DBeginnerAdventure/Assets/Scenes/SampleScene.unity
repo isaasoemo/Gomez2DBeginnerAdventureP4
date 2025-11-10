@@ -3313,6 +3313,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761b973450461124292f8f2fc96c88dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeftAction:
+    m_Name: Left
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: 945a6b1b-eb3c-4d81-847c-ec8db55317c3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 8205a527-088b-4c36-94e6-24ee92d4de4b
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
 --- !u!212 &1759864412
 SpriteRenderer:
   m_ObjectHideFlags: 0
