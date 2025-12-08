@@ -2,7 +2,6 @@
     <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthFrame.png?fileID=21300000&amp;guid=e04807cd45105ec409b00463fe6ab7b1&amp;type=3#UIHealthFrame&quot;); width: 481px; height: 167px; -unity-background-scale-mode: scale-to-fit;">
         <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/CharacterPortrait.png?fileID=21300000&amp;guid=0332b35b8fe3cf8458eb0558889493d1&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; bottom: 21px; height: 136px; width: 238px; left: 10px;" />
     </ui:VisualElement>
-    <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1;">
-        <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;); position: absolute; height: 49px; width: 194px; left: 213px; top: -112px;" />
-    </ui:VisualElement>
+    <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthBar.png?fileID=21300000&amp;guid=be3322f3a1dbc6e44b25b63f3bb91e16&amp;type=3#UIHealthBar&quot;); position: absolute; height: 43px; width: 55px; left: 212px; top: 61px; -unity-background-scale-mode: scale-and-crop;" />
+    <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1;" />
 </ui:UXML>

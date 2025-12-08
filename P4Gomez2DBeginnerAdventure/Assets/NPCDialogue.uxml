@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameUi" src="project://database/Assets/GameUi.uxml?fileID=9197481963319205126&amp;guid=3864fc85776717a4684a86654de8d92f&amp;type=3#GameUi" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIDialogueBox.png?fileID=21300000&amp;guid=924827a9385ec3544b572966c8853b0a&amp;type=3#UIDialogueBox&quot;); width: 760px; height: 100%; padding-top: 25px; padding-right: 25px; padding-bottom: 25px; padding-left: 25px; font-size: 25px; color: rgb(95, 0, 0); text-overflow: clip; position: absolute; top: 70%; left: 10%; bottom: 0%; right: 10%; -unity-background-scale-mode: scale-to-fit;">
+        <ui:Label tabindex="-1" text="There&apos;s a robot gone loose, please fix it. thx k bai" parse-escape-sequences="true" display-tooltip-when-elided="true" style="padding-right: 5px;" />
+    </ui:VisualElement>
+    <ui:Instance template="GameUi" name="GameUi" style="height: 176px;" />
+</ui:UXML>
